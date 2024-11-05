@@ -1,0 +1,32 @@
+[
+  {
+    "kind": "column",
+    "name": "Progress Bar",
+    "description": "Generates a progress bar based on the specified steps, stage, and color.",
+    "author": "Your Name <your.email@example.com>",
+    "params": [
+      {
+        "name": "Steps",
+        "displayName": "Steps",
+        "type": "string",
+        "description": "Comma-separated list of step titles"
+      },
+      {
+        "name": "Stage",
+        "displayName": "Stage",
+        "type": "number",
+        "description": "The current stage in the steps (0-indexed)"
+      },
+      {
+        "name": "Colour",
+        "displayName": "Colour",
+        "type": "string",
+        "description": "The main color for the progress indicator"
+      }
+    ],
+    "result": {
+      "type": "string",
+      "displayName": "Progress Bar HTML"
+    }
+  }
+]
